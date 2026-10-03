@@ -212,7 +212,8 @@
 
     /* ── Hero ── */
     /* #hero { min-height: 100vh; display: flex; align-items: center; padding-top: 6rem; } */
-    #hero { min-height: 100vh; display: flex; align-items: flex-start; padding-top: 8rem; padding-bottom: 4rem; }
+    /* #hero { min-height: 100vh; display: flex; align-items: flex-start; padding-top: 8rem; padding-bottom: 4rem; } */
+    #hero { min-height: 100vh; display: flex; align-items: flex-start; padding-top: 7.5rem; padding-bottom: 4rem; }
     .hero-inner {
       display: grid; grid-template-columns: 1.15fr 0.85fr;
       gap: 4rem; align-items: center; width: 100%;
@@ -430,6 +431,7 @@
 
     /* ── Responsive ── */
     @media (max-width: 768px) {
+      #hero { min-height: auto; padding-top: 7rem; padding-bottom: 4rem; }
       .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; }
       .hero-photo-wrap { justify-self: center; }
       .hero-photo { width: 240px; height: 300px; }
