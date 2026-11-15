@@ -10,12 +10,12 @@
 
   <!-- Primary SEO -->
   <title>
-    Anshuman Jaiswal | Product Manager | Fintech, Payments & AI
+    Anshuman Jaiswal | Senior Product Manager at Bajaj Finserv | Fintech, Payments &amp; AI
   </title>
 
   <meta
     name="description"
-    content="Anshuman Jaiswal is a Product Manager specializing in fintech, payment infrastructure, AI products, product analytics, and technical product management."
+    content="Anshuman Jaiswal is a Senior Product Manager at Bajaj Finserv working on digital platforms and Consumer AI: mobile and web onboarding journeys, customer authentication, payment infrastructure, and AI agent enabled product experiences."
   >
 
   <meta name="author" content="Anshuman Jaiswal">
@@ -39,12 +39,12 @@
 
   <meta
     property="og:title"
-    content="Anshuman Jaiswal | Product Manager | Fintech, Payments & AI"
+    content="Anshuman Jaiswal | Senior Product Manager at Bajaj Finserv | Fintech, Payments &amp; AI"
   >
 
   <meta
     property="og:description"
-    content="Product Manager specializing in fintech, payment infrastructure, AI products, analytics, and technical product management."
+    content="Anshuman Jaiswal is a Senior Product Manager at Bajaj Finserv working on digital platforms and Consumer AI: mobile and web onboarding journeys, customer authentication, payment infrastructure, and AI agent enabled product experiences."
   >
 
   <meta
@@ -57,6 +57,16 @@
     content="Anshuman Jaiswal"
   >
 
+  <meta
+    property="og:image"
+    content="https://ishujais.github.io/profile.jpeg"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Anshuman Jaiswal, Senior Product Manager at Bajaj Finserv"
+  >
+
   <!-- Twitter / X -->
   <meta
     name="twitter:card"
@@ -65,12 +75,17 @@
 
   <meta
     name="twitter:title"
-    content="Anshuman Jaiswal | Product Manager | Fintech, Payments & AI"
+    content="Anshuman Jaiswal | Senior Product Manager at Bajaj Finserv | Fintech, Payments &amp; AI"
   >
 
   <meta
     name="twitter:description"
-    content="Product Manager specializing in fintech, payment infrastructure, AI products, analytics, and technical product management."
+    content="Anshuman Jaiswal is a Senior Product Manager at Bajaj Finserv working on digital platforms and Consumer AI: mobile and web onboarding journeys, customer authentication, payment infrastructure, and AI agent enabled product experiences."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://ishujais.github.io/profile.jpeg"
   >
 
   <!-- Person / Profile structured data -->
@@ -80,14 +95,28 @@
     "@type": "ProfilePage",
     "@id": "https://ishujais.github.io/#profile",
     "url": "https://ishujais.github.io/",
-    "name": "Anshuman Jaiswal | Product Manager",
+    "name": "Anshuman Jaiswal | Senior Product Manager at Bajaj Finserv",
     "mainEntity": {
       "@type": "Person",
       "@id": "https://ishujais.github.io/#person",
       "name": "Anshuman Jaiswal",
       "url": "https://ishujais.github.io/",
-      "jobTitle": "Associate Product Manager",
-      "description": "Product Manager specializing in fintech, payment infrastructure, AI products, analytics, and technical product management.",
+      "jobTitle": "Senior Product Manager",
+      "image": "https://ishujais.github.io/profile.jpeg",
+      "description": "Senior Product Manager at Bajaj Finserv working on digital platforms and Consumer AI: onboarding journeys, customer authentication, payment infrastructure, and AI agent enabled product experiences.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Bajaj Finserv",
+        "url": "https://www.bajajfinserv.in/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Dr. A.P.J. Abdul Kalam Technical University"
+      },
       "sameAs": [
         "https://github.com/ishujais",
         "https://www.linkedin.com/in/theanshuman"
@@ -99,6 +128,9 @@
         "Payment Infrastructure",
         "Payment Orchestration",
         "Payment Systems",
+        "Digital Onboarding",
+        "Customer Authentication",
+        "Consumer AI",
         "Artificial Intelligence",
         "AI Agents",
         "Product Analytics",
@@ -172,6 +204,11 @@
     }
 
     /* ── Navigation ── */
+    .nav-links { display: flex; justify-content: center; gap: 1.9rem; flex-wrap: wrap; }
+    .nav-toggle {
+      display: none; background: none; border: 0; cursor: pointer;
+      color: #6e654c; padding: 0.25rem; line-height: 0;
+    }
     nav {
       position: fixed; top: 0; width: 100%; z-index: 100;
       padding: 1rem 2rem; display: flex; justify-content: center; gap: 1.9rem;
@@ -193,14 +230,17 @@
     nav a:hover::after { width: 100%; }
 
     /* ── Shared section styles ── */
-    section { position: relative; z-index: 1; padding: 6rem 2rem; max-width: 1000px; margin: 0 auto; }
+    section { position: relative; z-index: 1; padding: 2.5rem 2rem 3rem; max-width: 1000px; margin: 0 auto; }
+    .hero-role, .about-text, .timeline-desc li, .system-card p {
+      text-align: justify; hyphens: auto;
+    }
     .section-label {
       font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em;
       color: #b58100; font-weight: 700; margin-bottom: 0.5rem;
     }
     .section-title {
       font-family: 'Space Grotesk', sans-serif; font-size: 2.2rem; font-weight: 700;
-      margin-bottom: 2.5rem; color: #1f1a0a; line-height: 1.25;
+      margin-bottom: 1.75rem; color: #1f1a0a; line-height: 1.25;
     }
 
     /* ── Reveal animation ── */
@@ -292,7 +332,7 @@
     }
 
     /* ── About ── */
-    #about { padding-top: 4rem; }
+    #about { padding-top: 1.5rem; }
     .about-content { max-width: 720px; }
     .about-text { font-size: 1.03rem; color: #5f5740; }
     .about-text p { margin-bottom: 1rem; }
@@ -311,6 +351,7 @@
     .exp-name { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; font-weight: 600; }
     .exp-meta { font-size: 0.85rem; color: #8f8568; }
     .exp-roles { margin: 1.25rem 0 0 1.5rem; padding-left: 1.75rem; border-left: 2px solid rgba(202, 138, 4, 0.3); }
+    .exp-roles + .exp-company { margin-top: 2.75rem; }
     .timeline-item { position: relative; padding-bottom: 1.75rem; }
     .timeline-item:last-child { padding-bottom: 0; }
     .timeline-item::before {
@@ -388,7 +429,7 @@
     .edu-card .edu-year { font-size: 0.78rem; color: #8f8568; line-height: 1.45; }
 
     /* ── Achievements ── */
-    .awards-row { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    .awards-row { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: flex-start; }
     .award-badge {
       background: #ffffff; border-radius: 18px; padding: 1.1rem 1.5rem;
       display: flex; align-items: flex-start; gap: 0.8rem; font-size: 0.9rem;
@@ -431,21 +472,37 @@
     @media (max-width: 768px) {
       #hero { min-height: auto; padding-top: 7rem; padding-bottom: 4rem; }
       .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; }
-      .hero-photo-wrap { justify-self: center; }
-      .hero-photo { width: 240px; height: 300px; }
-      .hero-photo-wrap::before { inset: 14px -14px -14px 14px; }
+      .hero-photo-wrap { display: none; }
         .about-content { grid-template-columns: 1fr; }
         .systems-grid, .edu-cards, .skill-groups { grid-template-columns: 1fr; }
       .exp-roles { margin-left: 0.4rem; padding-left: 1.4rem; }
-      .exp-company { grid-template-columns: 1fr; }
-      section { padding: 4rem 1rem; }
+      .exp-company { grid-template-columns: 92px 1fr; gap: 0.85rem; }
+      .exp-logo { width: 92px; height: 48px; }
+      section { padding: 2rem 1rem 2.5rem; }
       .section-title { font-size: 1.8rem; }
-      nav { gap: 1rem; padding: 0.75rem 1rem; flex-wrap: wrap; }
-      nav a { font-size: 0.75rem; }
+      nav { padding: 0.65rem 1rem; justify-content: flex-start; }
+      .nav-toggle { display: block; }
+      .nav-links {
+        display: none; position: absolute; top: 100%; left: 0; right: 0;
+        flex-direction: column; gap: 0; padding: 0.5rem 1rem 1rem;
+        background: rgba(253, 250, 240, 0.97); backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(202, 138, 4, 0.15);
+      }
+      nav.open .nav-links { display: flex; }
+      .nav-links a { font-size: 0.8rem; padding: 0.6rem 0; }
+      .nav-links a::after { display: none; }
+      #hero { padding-top: 5.5rem; }
       .contact-card { padding: 2rem 1.25rem; }
+      .awards-row { gap: 0.85rem; }
+      .award-badge { max-width: none; width: 100%; padding: 1rem 1.2rem; }
+      .hero-role, .about-text, .timeline-desc li, .system-card p { text-align: left; hyphens: manual; }
+      .timeline-item::before { left: calc(-1.4rem - 9px); }
+      .system-card { padding: 1.5rem 1.35rem; }
+      .skill-group { padding: 1.35rem 1.25rem; }
+      .edu-card { padding: 1.25rem 1.2rem; }
     }
     @media (max-width: 480px) {
-        .awards-row { flex-direction: column; align-items: center; }
+        .awards-row { flex-direction: column; align-items: stretch; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; transition: none !important; }
@@ -461,6 +518,10 @@
   <div class="cursor-dot" id="cursorDot"></div>
 
   <nav id="navbar">
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-links" id="navLinks">
     <a href="#hero">Home</a>
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
@@ -469,6 +530,7 @@
     <a href="#awards">Achievements</a>
     <a href="#systems">Projects</a>
     <a href="#contact">Contact</a>
+    </div>
   </nav>
 
   <!-- ════════ HERO ════════ -->
@@ -476,8 +538,8 @@
     <div class="hero-inner">
       <div class="hero-text reveal">
         <span class="hero-status"><i></i> Immediate Joiner</span>
-        <h1 class="hero-name">Anshuman<span>Jaiswal</span></h1>
-        <p class="hero-role">Associate Product Manager at <strong>Tax2win (Now Part of Groww)</strong>. An engineer turned PM, building fintech journeys where system logic, data, and AI meet real user outcomes.</p>
+        <h1 class="hero-name">Anshuman<span>Jaiswal</span></h1> 
+        <p class="hero-role">Senior Product Manager at <strong>Bajaj Finserv</strong> <br>An engineer turned Product Manager with <strong>5+ years of experience</strong> building fintech products and digital platforms. I build customer-centric fintech products at the intersection of technology, data, payments, and AI.</p>
         <div class="hero-facts">
           <span>
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -485,7 +547,7 @@
           </span>
           <span>
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-            Product, Fintech, AI
+            Product, Fintech, Payments, AI
           </span>
           <span>
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
@@ -517,9 +579,10 @@
     </div>
     <div class="about-content reveal">
       <div class="about-text">
-        <p>I spent my first years at <strong>Tax2win</strong> writing backend code: parsers, RPA pipelines, API integrations. Somewhere in there I realised how deeply system logic shapes user experience and business outcomes, and moved into <strong>Product Management</strong>.</p>
-        <p>Today I own end to end B2C and B2B tax filing journeys: funnel optimisation, A/B testing, SQL analysis, payment orchestration, and AI enabled improvements, working shoulder to shoulder with engineering, design, and CA teams.</p>
-        <p>Outside work I run <strong>Web-Automation Labs</strong>, an open source lab for automation, AI agents, fintech tooling, and products that help PMs think and ship better.</p>
+        <p>I started my career at <strong>Tax2win (Now Part of Groww) </strong> as a Backend Developer, building parsers, RPA automation pipelines, API integrations, and backend solutions. Working closely with product challenges helped me realise how deeply system logic shapes customer experiences and business outcomes, eventually leading me into <strong>Product Management</strong>.</p>
+        <p>Today, at <strong>Bajaj Finserv</strong>, I work on digital platforms and <strong>Consumer AI</strong>, focusing on mobile and web onboarding journeys, customer authentication, and exploring AI Agent enabled experiences to simplify signup and sign in.</p>
+        <p>I enjoy working at the intersection of product thinking, system design, data, and AI, translating complex technical challenges into intuitive customer experiences and meaningful business outcomes.</p>
+        <p>Outside work, I run <strong>Web-Automation Labs</strong>, an open source initiative exploring web automation, AI agents, fintech tooling, and products that help builders and PMs think and ship better.</p>
       </div>
     </div>
   </section>
@@ -532,10 +595,28 @@
     </div>
     <div class="timeline reveal">
       <div class="exp-company">
+        <div class="exp-logo"><img src="bajaj.svg" alt="Bajaj Finserv"></div>
+        <div>
+          <p class="exp-name">Bajaj Finserv</p>
+          <p class="exp-meta">Full time &middot; Pune, India</p>
+        </div>
+      </div>
+      <div class="exp-roles">
+        <div class="timeline-item reveal">
+          <h3 class="timeline-role">Senior Unit Manager &ndash; Digital Platforms &amp; Consumer AI</h3>
+          <p class="timeline-date">Nov 2026 to Present</p>
+          <ul class="timeline-desc">
+          <li>Working on <strong>digital onboarding journeys</strong> across mobile and web applications, covering customer signup and sign in experiences, primarily across B2C and B2B platforms.</li>
+          <li>Contributing to product initiatives focused on improving customer onboarding and authentication experiences, with a primary focus on simplifying user journeys across digital platforms.</li>
+          <li>Exploring <strong>AI Agent enabled onboarding</strong> capabilities to enable seamless customer signup and login experiences across mobile and web applications.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-company">
         <div class="exp-logo"><img src="tax2win.svg" alt="Tax2win"></div>
         <div>
           <p class="exp-name">Tax2win (Now Part of Groww)</p>
-          <p class="exp-meta">Full time &middot; India</p>
+          <p class="exp-meta">Full time &middot; Jaipur, India</p>
         </div>
       </div>
       <div class="exp-roles">
@@ -573,30 +654,25 @@
       <div class="skill-group">
         <h3>Product Strategy &amp; Execution</h3>
         <div class="skill-chips">
-          <span>Roadmap Support</span><span>Feature Prioritization</span><span>Agile</span>
-          <span>A/B Testing</span><span>User Research</span><span>Cross functional Collaboration</span>
-          <span>Stakeholder Management</span><span>QA Coordination</span>
+          <span>Roadmap Support</span><span>Feature Prioritization</span><span>Product Discovery</span><span>Agile Methodologies</span><span>A/B Testing</span><span>User Research</span><span>Cross functional Collaboration</span><span>Stakeholder Management</span><span>QA Coordination</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Analytics &amp; User Insights</h3>
         <div class="skill-chips">
-          <span>Funnel Analysis</span><span>Customer Journey Mapping</span><span>User Feedback Analysis</span>
-          <span>Google Analytics</span><span>MoEngage</span><span>CleverTap</span>
+          <span>Funnel Analysis</span><span>Conversion Optimization</span><span>Customer Journey Analysis</span><span>User Behaviour Analytics</span><span>CleverTap</span><span>Microsoft Clarity</span><span>DevRev</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Technical &amp; Platform</h3>
         <div class="skill-chips">
-          <span>API Integration</span><span>SQL (MySQL)</span><span>Automation Workflows</span>
-          <span>Security Analysis</span><span>Test Case Design</span><span>Python</span><span>Node.js</span>
+          <span>API Integration</span><span>SQL (MySQL)</span><span>System Design</span><span>Automation Workflows</span><span>Test Case Design</span><span>Python</span><span>Node.js</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Tools</h3>
         <div class="skill-chips">
-          <span>Figma</span><span>Whimsical</span><span>Jira</span><span>Postman</span>
-          <span>Git</span><span>Trello</span><span>Mermaid</span>
+          <span>Figma</span><span>Whimsical</span><span>Datadog</span><span>Jira</span><span>Postman</span><span>Azure DevOps</span><span>DevRev</span><span>Git</span><span>Trello</span><span>Percy</span><span>LambdaTest</span><span>BrowserStack</span><span>Adobe Target</span>
         </div>
       </div>
     </div>
@@ -773,6 +849,20 @@
         photoWrap.style.transform = `translateY(${window.scrollY * 0.1}px)`;
       }
     });
+
+    // ── Mobile menu ──
+    const navToggle = document.getElementById('navToggle');
+    navToggle.addEventListener('click', () => {
+      const open = navbar.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open);
+      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a =>
+      a.addEventListener('click', () => {
+        navbar.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      })
+    );
 
     // ── Cursor dot ──
     const dot = document.getElementById('cursorDot');
